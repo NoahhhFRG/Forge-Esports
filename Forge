@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forge Esports</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#0b0b0b;
+color:white;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:black;
+border-bottom:2px solid red;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:red;
+}
+
+/* HERO */
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(#000,#111);
+}
+
+.hero h1{
+font-size:70px;
+color:red;
+letter-spacing:3px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+padding:12px 30px;
+background:red;
+border:none;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+box-shadow:0 0 15px red;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.1);
+}
+
+/* SECTION */
+
+.section{
+padding:70px 20px;
+text-align:center;
+}
+
+/* TEAM CARDS */
+
+.team{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.card{
+background:#111;
+width:220px;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+border:1px solid #222;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px red;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+/* MATCHES */
+
+.matches{
+max-width:600px;
+margin:auto;
+}
+
+.match{
+background:#111;
+padding:15px;
+margin:10px;
+border-radius:6px;
+}
+
+/* FOOTER */
+
+footer{
+background:black;
+padding:20px;
+text-align:center;
+border-top:2px solid red;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Forge Esports</h2>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Team</a>
+<a href="#">Matches</a>
+<a href="#">Merch</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<h1>FORGE ESPORTS</h1>
+
+<p>Legends aren't born — they're forged.</p>
+
+<button class="btn">Join The Team</button>
+
+</section>
+
+<section class="section">
+
+<h2>Our Team</h2>
+
+<div class="team">
+
+<div class="card">
+<img src="https://via.placeholder.com/200">
+<h3>Forge Flizz</h3>
+<p>Captain</p>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/200">
+<h3>Swazy</h3>
+<p>Player</p>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/200">
+<h3>Nzah</h3>
+<p>Player</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Recent Matches</h2>
+
+<div class="matches">
+
+<div class="match">Forge Esports 3-0 Splashy Esports</div>
+<div class="match">Forge Esports 3-1 Nova Squad</div>
+<div class="match">Forge Esports 2-3 Velocity</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Forge Esports</p>
+
+</footer>
+
+</body>
+</html>
